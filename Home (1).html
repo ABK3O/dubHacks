@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+        <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>MealFinder</title>
+        <style>
+            .main {
+            font-family: 'Quicksand', sans-serif;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+           
+            }
+           
+            ul {
+            font-family: 'Quicksand', sans-serif;
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: #2D3142;
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100%;
+           }
+           li {
+           float: left;
+           }
+           li a {
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+           }
+           li a:hover {
+               background-color: #111;
+           }
+        
+           .custom-select {
+            font-family: 'Quicksand', sans-serif;
+           }
+        
+/* Dropdown Button */
+.dropbtn {
+  background-color: #2D3142;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #2D3142;}
+            
+            
+        </style>
+    </head>
+   <body bgcolor= #EF8354>
+       <ul>
+       <li><a href="Home.html">Home</a></li>
+       <li><a href="About.html">About</a></li>
+       </ul>
+       <div class="main">
+       <h1> Welcome to Seattle MealFinder!</h1>
+       <p>• Breakfast: 19 Options </p> <p>• Lunch: 39 Options </p><p>• Dinner: 22 Options </p><p>• Snack: 2 Options </p>
+       <p> Select Meal Option: </p>
+       <!--<p>Breakfast: 19</p>
+       <p>Lunch: 39</p>
+       <p>Snacks: 2</p>
+       <p>Dinner: 22</p>
+       <form action="/action_page.php">
+       Location:<br>
+       <input type="text" name="location" value="Enter your location"><br>
+       <p></p>
+       Age:<br>
+       <input type="text" name=""location"age" value="Enter your age"><br>
+       <p></p>
+       Gender Identity: <br>
+       <input type="radio" name="gender" value="Male" checked> Male<br>
+       <input type="radio" name="gender" value="Female"> Female<br>
+       <input type="radio" name="gender" value="Nonbinary"> Nonbinary<br>
+       <p></p>
+       Please select any ethnicities you identify as: <br>
+       <input type="checkbox" name="ethnicity" value="ethnicity">American Indian<br>
+       <input type="checkbox" name="ethnicity" value="ethnicity">Somali<br>
+       <input type="checkbox" name="ethnicity" value="ethnicity">Tonga<br>
+       <input type="checkbox" name="ethnicity" value="ethnicity">Pacific Islander<br>
+       <p></p>
+       <input type="submit" value="Submit">
+       <input type="reset">
+       <p></p>
+       <p></p>
+       </form>-->
+
+       <!--<div class="custom-select" style="width:200px;">
+            <select>
+              <option value="0">Meal Option</option>
+              <option value="1">Breakfast </option>
+              <option value="2">Lunch</option>
+              <option value="3">Dinner</option>
+              <option value="4">Snack</option>
+       <br><p></p>
+       <input type="submit" value="Submit">
+    </div> -->
+        <div class="dropdown">
+            <button class="dropbtn">Food Option</button>
+            <button onclick ="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="Breakfast (1).html">Breakfast</a>
+              <a href="Lunch (1).html">Lunch</a>
+              <a href="Dinner (1).html">Dinner</a>
+              <a href="Snacks (1).html">Snacks</a>
+            </div>
+        </div>
+    </body>
+</html>

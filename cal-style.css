@@ -1,0 +1,37 @@
+table{
+    position: relative;
+    top: 250px;
+    left: 300px;
+    border: 5px solid black;
+    border-spacing: 20px;
+    text-emphasis: center;
+}
+
+header{
+    color: #EF8354;
+}
+
+.cal{
+    background: white;
+}
+
+.days{
+    font-family: Quicksand, sans-serif;
+}
+
+.week1{
+    font-family: Quicksand, sans-serif;
+}
+.week2{
+    font-family: Quicksand, sans-serif;
+}
+.week3{
+    font-family: Quicksand, sans-serif;
+}
+.week4{
+    font-family: Quicksand, sans-serif;
+}
+
+.week5{
+    font-family: Quicksand, sans-serif;
+}
